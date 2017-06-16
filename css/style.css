@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	min-width: 1140px;
+	min-height: 1024px;
+	overflow-x: hidden;
+	position: relative;
+	background-color: #000000;
+}
+
+a{
+	cursor: pointer;
+}
+
+.box{
+	width: 1902px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	top: 50%;
+	margin: auto;
+	margin-top: -512px;
+}
+
+.left{
+	width: 79px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+
+.right{
+	width: 79px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 999;
+}
+
+.left a{
+	width: 79px;
+    height: 100%;
+	position: absolute;
+	display: block;
+	background: url(../img/arrowL.png)no-repeat 0 80%;
+	margin-left: -79px;
+	opacity: .5;
+}
+
+.right a{
+	width: 79px;
+    height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url(../img/arrowR.png)no-repeat -79px 80%;
+	margin-right: -79px;
+	opacity: .5;
+	z-index: 999;
+}
+
+.oUl{
+	width: 3824px;
+	position: relative;
+}
+
+.oUl li{
+	width: 239px;
+	height: 1012px;
+	position: absolute;
+	list-style: none;
+}
+
+#coll{
+	position: absolute;
+}
+
+#coll #hidden{
+	width: 719px;
+	height: 1012px;
+	overflow: hidden;
+	position: relative;
+	left: 478px;
+	z-index: 999;
+	display: none;
+}
+
+#coll #hidden #hJpg{
+	width: 719px;
+	height: 1012px;
+	position: relative;
+	left: -719px;
+	background: url(../img/content_bg.jpg);
+}
+
+#coll #hidden #hJpg .inblock{
+	width: 719px;
+	height: 1012px;
+	position: relative;
+	background: url(../img/content_bg.jpg);
+}
+
+#coll #hidden #hJpg .close{
+	width: 30px;
+	height: 30px;
+	display: block;
+	background: url(../img/close_bg.png) -2px 34px;
+}
+
+#coll #hidden #hJpg #jpg{
+	display: block;
+	position: relative;
+	top: -1012px;
+}
+
+#coll .zhong{
+	width: 239px;
+	height: 1024px;
+	position: absolute;
+	left: 239px;
+	background:url(../img/panel_bg.png);
+	background-position-x: -10px;
+	z-index: 999;
+}
+
+.oUl li{
+	margin-left: -1px;
+}
+
+.oUl li .jpg{
+	display: block;
+}
+
+#coll .zhong img{
+	display: block;
+	margin: auto;
+}
+
+#coll .zhong dl{
+	width: 228px;
+	height: 600px;
+	margin: auto;
+	margin-top: 129px;
+}
+
+#coll .zhong dl dd{
+	width: 228px;
+	height: 49.55px;
+	font: 14px/50px 'Open Sans', sans-serif;
+	line-height: 49.55px;
+	font-weight: 700;
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: #c1c1c1 0 1px 3px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.box #coll .zhong dl dd ul{
+	width: 228px;
+	height: 60px;
+	border: 0px;
+	list-style: none;
+	display: none;
+}
+
+.box #coll .zhong dl dd ul li{
+	width: 228px;
+	height: 20px;
+	text-align: center;
+	font: 14px/50px 'Open Sans', sans-serif;
+	text-shadow: #c1c1c1 0 1px 3px;
+	font-weight: 700;
+	line-height: 20px;
+	font-size: 16px;
+	color: #888888;
+	background-image: url(../img/panel_bg.png);
+	background-position-x: -20px;
+}
+
+.box .oUl .move .yan .tExt{
+	position: relative;
+}
+
+.box .oUl .move{
+	/*overflow: hidden;*/
+	transition: all .1s;
+	cursor: pointer;
+}
+
+.box .oUl .move .zhe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-image: url(../img/content_bg.jpg);
+	opacity: .9;
+	transition: all .2s;
+}
+
+.box .oUl .move .yan .yj{
+	position: relative;
+}
+
+.box .oUl .move .yan{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -60px;
+	overflow: hidden;
+	transition: all 1s;
+}
+
+.box .oUl .move .yan strong{
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: no-repeat;
+	background-position-x:87px;
+	margin-bottom: 17px;
+	background-image: url(../img/icon_zoom.png);
+}
+
+.box .oUl .move .yan .tExt{
+	font: 10px/12px Arial, sans-seri;
+	font-style: normal;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: #2d2d2c 0 1px 3px;
+	opacity: 1;
+	text-align: center;
+}
+
+
+
